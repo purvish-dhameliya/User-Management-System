@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useForm } from "react-router-dom";
+import { useForm } from "react-hook-form";
 
 import { toast } from 'react-toastify'
 import { authUser } from '../services/UsersApi'
